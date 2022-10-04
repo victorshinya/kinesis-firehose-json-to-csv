@@ -1,0 +1,15 @@
+{
+  "name": "kinesis-firehose-json-to-csv",
+  "version": "1.0.0",
+  "description": "An AWS Lambda function to convert Amazon Kinesis Data Firehose delivery streams to a CSV file to upload to Amazon S3",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Victor Shinya <contato@victorshinya.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1225.0"
+  }
+}
